@@ -1,0 +1,90 @@
+@import url(./reset.css);
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(../img/body-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.slider-btn__next,
+.slider-btn__prev {
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  background-color: tan;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 600px;
+  overflow: hidden;
+}
+
+.slider-line {
+  display: -webkit-inline-box;
+  position: relative;
+  left: 0;
+  width: 1800px;
+  transition: all ease 1s;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 15px;
+}
+
+.circle-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: darkgray;
+}
+
+.circle1 {
+  background-color: black;
+}

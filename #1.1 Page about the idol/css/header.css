@@ -1,0 +1,37 @@
+.header-position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 50px;
+}
+
+.biography {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+  width: 400px;
+}
+
+.biography-neme {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.biography-data {
+  line-height: 30px;
+}
+
+.biography-achievement {
+}
+
+.biography-about__him {
+  font-style: italic;
+}
+
+.portrait {
+  width: 400px;
+  height: 500px;
+  border-radius: 10%;
+  box-shadow: 15px 20px 15px black;
+}

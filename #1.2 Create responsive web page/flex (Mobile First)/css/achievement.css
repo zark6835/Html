@@ -1,0 +1,26 @@
+.sheet-of__achievements {
+  padding: 50px 30px 40px;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 0;
+}
+
+.achievement-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 880px) {
+  .achievement-link {
+    display: block;
+  }
+}

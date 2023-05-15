@@ -1,0 +1,22 @@
+.sheet-of__achievements {
+  padding: 50px 0 40px;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 0;
+}
+
+.achievement-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.achievement-link__style{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}

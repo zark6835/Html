@@ -1,0 +1,36 @@
+body{
+  display: flex;
+}
+
+.wrapper-link {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  gap: 50px;
+  width: 200px;
+  background-color: azure;
+}
+
+.wrapper-link__style {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0 40px;
+  gap: 50px;
+  width: 100%;
+  background-color: cornsilk;
+}
+
+.wrapper-informstion__text {
+  width: 500px;
+}
